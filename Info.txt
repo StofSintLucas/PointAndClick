@@ -1,0 +1,24 @@
+directions:
+statue > letter 1
+
+RedBrick > Sharp Shard (large vase)
+         > Key (small vase)
+
+Key    > shovel (door)
+
+Shard > Letter 2 (pillar)
+      > rope (barrel)
+
+Shovel > Bone (grave)
+       > Gold Nugget (large rock)
+
+Bone/torch > Letter 3 (pipe)
+
+Bone & rope > torch 
+
+torch & gold > Letter 4 (Large grave)
+
+
+All letters > Compass
+
+Compass > beat game

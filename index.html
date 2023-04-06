@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <title>point and click adventure</title>
+</head>
+
+<body>
+    <div id="title">
+        <h1 id="mainTitle"></h1>
+    </div>
+    <div id="gameWindow">
+        <!--dialog bar-->
+        <div id="dialogBar" class="foreground">
+            <div id="setMainDialog">
+                <img id="hero" class="foreground" src="img/portairt.png" alt="portrait">
+                <div id="mainCharacterSpeech" class="foreground speech-bubble">...</div>
+
+                <div id="counterSpeech" class="foreground speech-bubble">...</div>
+                <img id="counterCharacter" class="foreground" src="img/portairStatue.png" alt="The other person">
+                <div id="brownBar"></div>
+            </div>
+        </div>
+
+        <!--Foreground-->
+        <div id="RedBrick" class="foreground"></div>
+        <div id="Vase1" class="foreground"></div>
+        <div id="Vase2" class="foreground"></div>
+        <div id="Door" class="foreground"></div>
+        <div id="Pillar" class="foreground"></div>
+        <div id="grave" class="foreground"></div>
+        <div id="Pipe" class="foreground"></div>
+        <div id="Barrel" class="foreground"></div>
+        <div id="LargeGrave" class="foreground"></div>
+        <div id="LargeRock" class="foreground"></div>
+        <div id="EndBlock" class="foreground"></div>
+        <div id="Statue" class="foreground"></div>
+        <div id="DirectionBlock" class="foreground"></div>
+
+        <!-- Character -->
+        <div id="mainCharacter" class="character">
+            <img src="img/animated-character-1-idle.gif" alt="main character">
+        </div>
+
+
+        <!-- Background -->
+        <div id="tilemap" class="background">
+            <img id="MapImage" draggable="false" src="img/tilemap1.jpg" alt="tilemap 1">
+        </div>
+    </div>
+
+    <!-- inventory -->
+    <div id="invetoryBox">
+        <p>Inventory</p>
+        <ul id="inventoryList">
+
+        </ul>
+    </div>
+
+    <audio id="characterAudio">
+        <source src="audio/TypeWriter.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="counterAudio">
+        <source src="audio/KeyBoard.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
